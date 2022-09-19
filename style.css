@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .sfondo {
@@ -21,7 +22,7 @@
 
 .accedi {
     background-color: white;
-    color: blue;
+    color: #5865f2;
     border-radius: 30px;
     padding: 10px;
     text-decoration: none;
@@ -54,4 +55,15 @@
     border-radius: 30px;
     padding: 10px;
     text-decoration: none;
+}
+
+.container-flex {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.immagine-2 {
+    display: flex;
+    /* width: 150px; */
 }
