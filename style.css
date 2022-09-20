@@ -108,4 +108,26 @@ header {
 
 .main-background {
     display: flex;
+    width: 5em;
+    height: auto;
+}
+
+.immagine-main-1 {
+
+}
+
+.main-background-2 {
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main-background-3 {
+    display: flex;
+}
+
+.last-main-background {
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    flex-direction: column;
 }
