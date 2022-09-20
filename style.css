@@ -2,68 +2,106 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     font-family: sans-serif;
 }
 
-.sfondo {
-    background-image: url(img/jumbo.png);
-    width: 100%;
-
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.nav {
-    color: white;
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    padding: 10px;
+.container-small {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.accedi {
-    background-color: white;
-    color: #5865f2;
+.bottone {
+    padding: 1em 1.5em;
     border-radius: 30px;
-    padding: 10px;
     text-decoration: none;
 }
 
-/* .container-nav {
-    background-image: url(img/jumbo.png);
-    width: 100%;
-    height: auto;
-    
-} */
+.bottone-bianco {
+    background-color: white;
+    color: #255EE9;
+}
 
-.container-nav {
+.bottone-nero {
+    background-color: black;
     color: white;
+}
+
+header {
+    background-color: #255EE9;
+}
+
+.menu-top {
+    height: 3em;
+}
+
+.menu-top ul {
+    display: flex;
+    height: 100%;
+}
+
+.menu-top li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-top .menu-link {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-top .logo {
+    margin-right: auto;
+}
+
+.menu-top .accedi {
+    margin-left: auto;
+}
+
+.header-background {
+    padding: 4rem 0 3rem;
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-content {
     text-align: center;
-    
+    color: white;
+    margin-bottom: 3em;
+}
+
+.header-content h1 {
+    margin-bottom: 1rem;
+}
+
+.header-content p {
+    margin-bottom: .5rem;
 }
 
 .scarica {
     background-color: white;
     color: black;
+    padding: .5em .7em;
     border-radius: 30px;
-    padding: 10px;
     text-decoration: none;
 }
 
 .apri {
     background-color: black;
     color: white;
+    padding: .5em .7em;
     border-radius: 30px;
-    padding: 10px;
     text-decoration: none;
-}
-
-.container-flex {
-    display: flex;
-    align-items: center;
-    margin-bottom: 40px;
-}
-
-.immagine-2 {
-    display: flex;
-    /* width: 150px; */
 }
