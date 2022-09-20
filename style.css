@@ -98,6 +98,9 @@ header {
     padding: .5em .7em;
     border-radius: 30px;
     text-decoration: none;
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: .3em;
 }
 
 .apri {
@@ -110,56 +113,70 @@ header {
 
 .main-background {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 5em;
     height: auto;
     padding-bottom: 5em;
     padding-top: 5em;
+    
+}
+
+.larghezza-immagine-1 {
+    width: 100%;
 }
 
 .immagine-main-1 {
-    margin-left: 10em;
-
+    width: 33%;
 }
 
 .testo-1 {
-    margin-right: 5em;
+    width: 33%;
 }
 
 .main-background-2 {
     background-color: rgb(207, 204, 204);
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
     align-items: center;
     height: auto;
     padding-bottom: 5em;
     padding-top: 5em;
 }
 
+.larghezza-immagine-2 {
+    width: 100%;
+}
+
 .immagine-main-2 {
-    margin-right: 10em;
+    margin-right: 33%;
 
 }
 
 .testo-2 {
-    margin-left: 10em;
+    margin-left: 33%;
 }
 
 .main-background-3 {
     display: flex;
     align-items: center;
+    justify-content: center;
     height: auto;
     padding-bottom: 5em;
     padding-top: 5em;
 }
 
+.larghezza-immagine-3 {
+    width: 100%;
+}
+
 .immagine-main-3 {
-    margin-left: 10em;
+    width: 33%;
 
 }
 
 .testo-3 {
-    margin-right: 10em;
+    width: 33%;
 }
 
 
@@ -173,12 +190,24 @@ header {
     padding-bottom: 5em;
 }
 
+.larghezza-immagine-footer {
+    width: 100%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+
+h4 {
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+
 .scarica-viola {
     background-color: #255EE9;
     color: white;
     padding: .5em .7em;
     border-radius: 30px;
     text-decoration: none;
+    margin-top: 1em;
 
 }
 
@@ -197,4 +226,27 @@ header {
     list-style: none;
     display: flex;
     
+}
+
+.bandiera {
+    width: 15px;
+}
+
+.testo-bandiera {
+    display: inline-block;
+}
+
+.rimozione {
+    list-style-type: none;
+}
+
+.primo-li {
+    color: #255EE9;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    padding-bottom: 5em;
 }
